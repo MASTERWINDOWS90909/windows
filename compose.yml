@@ -3,7 +3,9 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "11"
+      VERSION: "11e"
+      RAM_SIZE: "64G"
+      CPU_CORES: "16"
     devices:
       - /dev/kvm
       - /dev/net/tun
