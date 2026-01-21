@@ -6,6 +6,7 @@ services:
       VERSION: "11e"
       RAM_SIZE: "64G"
       CPU_CORES: "16"
+      DISK_SIZE: "128G"
     devices:
       - /dev/kvm
       - /dev/net/tun
